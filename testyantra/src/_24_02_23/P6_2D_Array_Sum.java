@@ -2,7 +2,7 @@ package _24_02_23;
 
 import java.util.Scanner;
 
-public class P6_SumAndSub {
+public class P6_2D_Array_Sum {
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
 		
@@ -23,7 +23,15 @@ public class P6_SumAndSub {
 				arr[i][j]=sc.nextInt();
 			}
 		}
-		
+		System.out.println("Printing The 1st Array Elements..");
+		for(int i=0;i<row;i++)
+		{
+			for(int j=0;j<col;j++)
+			{
+			System.out.print(arr[i][j]+" ");
+		}
+			System.out.println();
+		}
 		System.out.println("Enter The 2nd Array row size..");
 		int row1=sc.nextInt();
 		System.out.println("Enter The 2nd Array The Col Size..");
@@ -39,24 +47,39 @@ public class P6_SumAndSub {
 				arr1[i][j]=sc.nextInt();
 			}
 		}
-		  
 		
-		System.out.println("Printing The Elements,,");
+		System.out.println("Printing The 2nd Array Elements..");
+		for(int i=0;i<row1;i++)
+		{
+			for(int j=0;j<col1;j++)
+			{
+			System.out.print(arr1[i][j]+" ");
+		}
+			System.out.println();
+		}
+		
+		int [][] sum = new int [row][col];
+		for(int i = 0 ; i < arr.length ; i++)
+		{
+			for(int j = 0 ; j < arr[i].length ; j++)
+			{
+				 sum [i][j] =  arr[i][j] + arr1[i][j];
+				System.out.println();
+			}
+		}
+		
+		System.out.println("Sum Of 2D Arrays Elements,,");
      
-	    for(int i=0;i<row;i++)
-	    {
-	    	for(int j=0;j<col;j++)
-	    	{
-	    		  for(int i1=0;i1<row1;i1++)
-	    		    {
-	    		    	for(int j1=0;j1<col1;j1++)
-	    		    	{
-	    		    		System.out.print( arr[i][j]+arr1[i1][j1]+" ");
-	    		    		
-	    		    	}
-	    		    	System.out.println();
-	    		    	}
-	    	}
-	    }
+		for(int i = 0 ; i < sum.length ; i++)
+		{
+			for(int j = 0 ; j < sum[i].length ; j++)
+			{
+				System.out.print(sum[i][j]+" ");
+			}
+			System.out.println();
+		}
 	}
 }
+
+
+
