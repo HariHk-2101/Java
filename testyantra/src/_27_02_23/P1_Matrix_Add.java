@@ -65,27 +65,23 @@ public class P1_Matrix_Add {
            	{
 	    	   for(int j=0;j<col;j++)
 	    	   {
-	    		   for(int i1=0;i1<row;i1++)
-	              	{
-	   	    	   for(int j1=0;j1<col;j1++)
-	   	    	   {
-	    	   
-	    	         System.out.print(arr[i][j]+arr1[i1][j1]);
+	    		 
+	    	       sum[i][j]=(arr[i][j]+arr1[i][j]);
 	    	   }
 	    	   System.out.println();
             }
+	    	   
+           	
+	       
+	       System.out.println("sum of elememts...");
+	       for(int i=0;i<row;i++)
+          	{
+	    	   for(int j=0;j<col;j++)
+	    	   {
+	    	    System.out.print(sum[i][j]+" ");
 	    	   }
-           	}
-//	       
-//	       System.out.println("sum of elememts...");
-//	       for(int i=0;i<col;i++)
-//          	{
-//	    	   for(int j=0;j<col;j++)
-//	    	   {
-//	    	    System.out.print(sum[i][j]+" ");
-//	    	   }
-//	    	   System.out.println();
-//           }
+	    	   System.out.println();
+           }
 	       
 	       
   }

@@ -24,16 +24,22 @@ public class P3_insertion {
 	    int ele=sc.nextInt();
 	    System.out.println("Enter The Index..");
 	    int index=sc.nextInt();
-	  
-	    int j=0;
-	    if(j<=arr1.length)
+	    if(index>=arr.length)
 	    {
+	    	System.out.println("Array Index invalid..");
+	    
+	    }
+	    else {
+	    	
+	    int j=0;
+	    
+	    
 	    for(int i=0;i<arr.length;i++)
 	    {
 	    	
 	    	if(j==index)
 	    	{
-	    		
+	    		 
 	    	  arr1[j]=ele;
 	    		j++;	  
 	        }
@@ -47,6 +53,7 @@ public class P3_insertion {
 	    	
 	    	System.out.print(arr1[i]+" ");
 	    }
-	  }  
+	   }
+	    
 	}
 }

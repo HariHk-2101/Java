@@ -50,7 +50,6 @@ public class P4 {
 				i++;
 			}
 				
-			
 		}
 		
 		for(int i=0;i<arr3.length;i++)

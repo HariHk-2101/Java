@@ -46,5 +46,9 @@ public class P13 {
 			}
         }
 	 }
+	    if(flag==true)
+	    {
+	    	System.out.println("There Is no Common element");
+	    }
 	}
 }
