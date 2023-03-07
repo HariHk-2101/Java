@@ -14,7 +14,8 @@ public class BinarySearch {
 	
 		
 		boolean flag=false;
-		while(low<=high)
+		for (int i = 0; i < a.length; i++) {
+			
 		{
 			mid=(low+high)/2;
 			
@@ -35,7 +36,7 @@ public class BinarySearch {
 				low=low;
 			}
 		
-			
+		}
 		}
 		
 		if(flag==false)
