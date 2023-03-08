@@ -21,7 +21,7 @@ public class Emailvalidation {
 		   String user=s1[0];
 		   String domain="";
 		   char ch='.';
-		   int i1=ch;
+		   
 				   
 		   for(int i=s1.length-1;i>0;i--)
 		   {
@@ -29,21 +29,24 @@ public class Emailvalidation {
 		   }
 	
 		    char [] dom=domain.toCharArray();
+		    
 		    System.out.println(dom[0]);
 		    
 		    if(dom[0]!=ch)
 		    {
 		    	
-		
+		     
 		    if(user!=" " && domain!=" ")
 		    {
-		       if(i1<1&&domain.contains("."))
+		    	
+		    	System.out.println(email);
+		       if(ch<=1&&domain.contains("."))
 				{
 		    	   System.out.println(email);
 				   if(domain.endsWith(".com") || domain.endsWith(".in")|| domain.endsWith(".org"))
-				  {
+				   {
 					   System.out.println("Your Email Id Is "+email);
-				  }
+				   }
 				   else
 				   {
 					   System.out.println("Incorrect Mail Give Correct Domain...");

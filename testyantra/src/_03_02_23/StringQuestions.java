@@ -1,5 +1,6 @@
 package _03_02_23;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class StringQuestions {
@@ -12,13 +13,13 @@ public class StringQuestions {
 //		Compare();
 //		rev();
 //		palindrome();
-//		even();
+		even();
 //		length();
 //		 sum();
 //		print();
 //		spaces();
 //		UpperCase();
-		LC_SC();
+//		LC_SC();
 	}
 	
 	public static void index() {
@@ -145,19 +146,24 @@ public class StringQuestions {
    	 		
    	 		System.out.println("Enter The 1st String...");
    	 		
-   	 		String s=sc.next();
+   	 		String s=sc.nextLine();
    	 		
    	 		for(int i=0;i<s.length();i++)
    	 		{
    	 			char ch=s.charAt(i);
+   	 			 
    	 			
    	 			if(i%2==0)
    	 			{
    	 				
    	 				
-   	 				System.out.print(ch+",");
+   	 				System.out.print(ch+" Even index Charcaters");
    	 				
    	 				
+   	 			}
+   	 			else
+   	 			{
+   	 				System.out.println(ch+" Odd Index Characters");
    	 			}
    	 		}
  		

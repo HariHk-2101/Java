@@ -12,7 +12,7 @@ public class GenerateNewString {
 	
 	String s=sc.next();
 	
-	String s1="";
+	
 	
 	
 	for(int i=0;i<s.length();i++)
