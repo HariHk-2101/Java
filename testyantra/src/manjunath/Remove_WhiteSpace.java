@@ -11,5 +11,7 @@ public class Remove_WhiteSpace {
 		System.out.println(s);
 		s=s.replace("\\s","");
 		System.out.println(s);
+	
+		
 	}
 }

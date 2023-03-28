@@ -2,7 +2,7 @@ package LeetCode;
 
 import java.util.Scanner;
 
-public class P2_Palindrome {
+public class LeetCode1 {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);

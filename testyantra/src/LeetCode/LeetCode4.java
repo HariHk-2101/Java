@@ -2,7 +2,7 @@ package LeetCode;
 
 import java.util.Scanner;
 
-public class Hack {
+public class LeetCode4 {
 public static void main(String[] args) {
 	Scanner sc=new Scanner(System.in);
 	

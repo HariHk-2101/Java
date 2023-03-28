@@ -1,7 +1,5 @@
 package LeetCode;
 
-import java.util.Arrays;
-
 public class LeetCode2 {
 
 	
@@ -24,17 +22,17 @@ public class LeetCode2 {
 		int nums[]= {0,0,1,1,1,2,2,3,3,4}; 
 		
 		
-		int[] expectedNums = new int[nums.length]; // The expected answer with correct length
+		int[] expectedNums = new int[nums.length]; 
 
 		LeetCode2 lc=new LeetCode2();
 	    
-		int k = lc.removeDuplicates(nums); // Calls your implementation
+		int k = lc.removeDuplicates(nums); 
 
-		System.out.print(k+" ");
+		System.out.print(k+" ");//Printing Length
 		assert k == expectedNums.length;
 		for (int i = 0; i < k; i++) {
 		    assert nums[i] == expectedNums[i];
-		  System.out.print(nums[i]+" ");
+		  System.out.print(nums[i]+" ");//Printing elements
 		}
 	
 	}
