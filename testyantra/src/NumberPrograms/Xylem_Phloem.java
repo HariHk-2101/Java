@@ -22,7 +22,7 @@ public class Xylem_Phloem {
 				sumRest+=num%10;
 			}
           num/=10;
-		}
+		} 
 	
 		
 		if(sumFL==sumRest)
