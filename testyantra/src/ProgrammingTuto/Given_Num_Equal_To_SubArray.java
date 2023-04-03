@@ -7,7 +7,7 @@ public class Given_Num_Equal_To_SubArray {
 		{
 			int sum=0;
 			
-			for(int i=0;i<a.length;i++)
+			for(int i=0 ;i<a.length;i++)
 			{
 				sum=a[i];
 			   for(int j=i+1;j<=a.length;j++)
@@ -15,8 +15,6 @@ public class Given_Num_Equal_To_SubArray {
 				   if(sum==k)
 				   {
 					   return new int[] {i,j-1};
-					   
-					   
 				   }
 				   if(sum>k)
 				   {
@@ -25,7 +23,6 @@ public class Given_Num_Equal_To_SubArray {
 				   if(j<a.length)
 				   {
 					   sum=sum+a[j];
-					
 				   }
 			   }
 			}
@@ -35,7 +32,6 @@ public class Given_Num_Equal_To_SubArray {
 
 		public static void main(String[] args) {
 			int []a= {2,4,3,5,3,2};
-			
 			int k=10;
 			System.out.println(Arrays.toString(resub(a,k)));
 			
