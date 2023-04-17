@@ -14,7 +14,7 @@ public class Pyramid
 		{
 			for(int j=1;j<=size-r;j++)
 			{
-				System.out.print(" "+" ");
+				System.out.print("  ");
 			}
 				for(int k=1;k<=2*r-1;k++)
 				{

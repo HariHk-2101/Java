@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class Up_Tri
 {
-	
-			
 			public static void main(String[] args) {
 				  Scanner sc= new Scanner(System.in);
 					 
@@ -20,7 +18,7 @@ public class Up_Tri
 						}
 							for(int k=1;k<=2*r-1;k++)
 							{
-								if(k==1||r==size|| k==2*r-1)
+								if(k==1||r==size||k==2*r-1)
 								{
 									System.out.print("* ");
 								}
@@ -33,6 +31,5 @@ public class Up_Tri
 							System.out.println();
 					}
 					
-			
 	}
 }
