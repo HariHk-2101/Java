@@ -20,10 +20,10 @@ public class Third_Max {
 		    	arr[i]=sc.nextInt();
 		    	
 		    }
-	       int max=arr[0];
-       	int max1=arr[0];
-	int max2=arr[0];
-	for(int i = 0 ; i < size ; i++) {
+	        int max=arr[0];
+           	int max1=arr[0];
+	       int max2=arr[0];
+	    for(int i = 0 ; i < size ; i++) {
 		if(arr[i] > max) {
 			max2=max1;
 			max1=max;

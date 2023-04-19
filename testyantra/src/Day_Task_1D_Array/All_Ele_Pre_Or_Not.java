@@ -4,26 +4,30 @@ public class All_Ele_Pre_Or_Not {
 //12.  Check whether all the elements first array are present in the second array
 	
 	public static void main(String[] args) {
-		int a[]= {10,20,30};
-		int b[]= {10,20,30};
+		int a[]= {1,2,3,8,5};
+		int b[]= {1,2,3,8,5};
+		
 		if(a.length!=b.length)
 		{
 			System.out.println("Both Arrays Length are  Not Same..");
 		}
 		else
 		{
-			boolean flag=true;
+			    int temp=0;
 	     	    for(int i=0;i<a.length;i++)
 	        	{
-	     	    	
-			    	  if(a[i]!=b[i])
+	     	    	for (int j = 0; j < b.length; j++) {
+						
+			    	  if(a[i]==b[j])
 			    	  {
-			    		  flag=false;
+			    		 temp++;
 			    		  break;
 			          }
+			    	  
+	     	    	}
 	     	    }
 	       
-	     	    if(flag==true)
+	     	    if(temp==a.length)
 	     	    {
 	     	    	System.out.println("Both Array Elements Are Present");
 	     	    }
