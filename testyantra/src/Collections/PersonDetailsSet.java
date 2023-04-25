@@ -51,7 +51,7 @@ public class PersonDetailsSet {
 			
 			String s1=(String)it.next();
 		
-			if(n%2==0)
+			if(n%2==1)
 			{
 			System.out.println("Name :"+s1+"\nAge :"+n);
 							

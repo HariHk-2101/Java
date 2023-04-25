@@ -18,7 +18,7 @@ public class Char_Palindrome_Or_Not {
 				break;
 			}
 			temp++;
-			temp1--;
+			temp1--; 
 		}
 		if(flag==true)
 		{
