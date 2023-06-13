@@ -4,7 +4,7 @@ public class Find_Ele_Sec_Time {
 //29.  Find which element is present for the second time in which index
 	
 	public static void main(String[] args) {
-		int a[]= {1,2,3,4};
+		int a[]= {1,2,3,4,4};
 		 
 		 boolean flag=false;
 		for (int i = 0; i < a.length; i++) {

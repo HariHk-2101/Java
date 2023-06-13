@@ -75,7 +75,7 @@ for(int i=0;i<s.length();i++)
 		}
 	
    }
-	 System.out.print(s.charAt(i)+""+count);
+	 System.out.println(s.charAt(i)+""+count);
 		visited+=ch;
 }
  

@@ -13,6 +13,7 @@ public class Print_Ele {
 		int col=sc.nextInt();
 		
 	 double arr[][]=new double[row][col];
+
 		
 		for(int i=0;i<row;i++)
 		{

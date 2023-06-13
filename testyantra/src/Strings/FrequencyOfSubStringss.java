@@ -11,7 +11,7 @@ public class FrequencyOfSubStringss {
 			
 			String s1=sc.nextLine();
 			
-			String s2="";
+			String s2="";  
 			
 			String []spl=s1.split(" ");
 			

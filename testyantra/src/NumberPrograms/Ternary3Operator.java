@@ -14,7 +14,8 @@ public class Ternary3Operator {
 		System.out.println("Enter The Value 3...");
 		int c=sc.nextInt();
 		
-		int result=a>b?(a>b?a:c):(b>c?b:c); 
+		
+		int result=(a>b)?a:(b>c)?b:c;
 		
 		System.out.println(result+" Is the largest Number...");
 		

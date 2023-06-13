@@ -1,5 +1,6 @@
 package Arrays_2D;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class P13_Multi_Matrix {
@@ -70,6 +71,7 @@ public class P13_Multi_Matrix {
 				for(int k=0;k<col;k++)
 				{
 				 multi [i][j] +=  arr[i][k] * arr1[k][j];
+				 
 				}
 			}
 			System.out.println();
