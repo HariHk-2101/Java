@@ -1,6 +1,5 @@
-package Pattern_Programs;
+ package Pattern_Programs;
 
-import java.util.Scanner;
 
 public class Pyramid
 {
