@@ -1,18 +1,15 @@
 package simple_Logic_Pattern;
 
-
-
-public class Butterfly_prog {
+public class Holo_Left_Pyramid {
 
 	public static void main(String[] args) {
-		int n=6;
-		
+		int n=5;
 		for(int i=1;i<=n*2-1;i++)
 		{
-			for(int j=1;j<=n*2-1;j++)
+			for(int j=1;j<=n;j++)
 			{
-				if((i>=j&&i<n)||(i+j<=2*n&&i>=n)||i+j>=n*2&&i<=n||i<=j&&i>=n) {
-				
+				if(i+j==n+1||j==n||j==i-n+1)
+				{
 					System.out.print("* ");
 				}
 				else
@@ -22,7 +19,5 @@ public class Butterfly_prog {
 			}
 			System.out.println();
 		}
-		
-		
 	}
 }
