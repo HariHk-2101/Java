@@ -31,9 +31,6 @@ public class P15_Sparse {
 				if (i == j && arr[i][j] == b) {
 					flag = true;
 
-				} else if (arr[i][j] != b) {
-					flag = false;
-					break;
 				}
 			}
 		}

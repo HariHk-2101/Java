@@ -11,11 +11,11 @@ public class AnagramOrNot {
 		
 		System.out.println("Enter the first String...");
 		
-		String s1=sc.next();
+		String s1=sc.next().toLowerCase();
 		
 		System.out.println("Enter The Second String..");
 		
-		String s2=sc.next();
+		String s2=sc.next().toLowerCase();
 		
 		
 		char [] ch1=s1.toCharArray();

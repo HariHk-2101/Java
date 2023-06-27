@@ -11,15 +11,13 @@ public class EvenOrNot {
 		
 		int temp=num1;
 		
-		int rev=0;
-		while(num1!=0)
+		
+		while(num1>9)
 		{
-			int rem=num1%10;
-			rev=rev*10+rem;
 			num1=num1/10;
 		}
 		
-		if(rev%2==0)
+		if(num1%2==0)
 		{
 			System.out.println("Given Number "+temp+" Start with Even Number...");
 		}

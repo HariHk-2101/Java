@@ -11,17 +11,17 @@ public class Composite {
 		
         int num=sc.nextInt();
         
-        boolean check=true;
+       int count=0;
         
-        for(int i=2;i<num;i++)
+        for(int i=1;i<=num;i++)
         {
         	if(num%i==0)
         	{
-        		check=false;
+        	   count++;
         	}
         }
         
-       if(check==false)
+       if(count>2)
        {
     	   System.out.println(num+" is A composite Number..");
        }

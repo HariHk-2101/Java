@@ -2,7 +2,7 @@ package NumberPrograms;
 
 import java.util.Scanner;
 
-public class Range40_50 {
+public class Sum_Of_Prime_In_Range {
 
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
@@ -15,21 +15,19 @@ public class Range40_50 {
 		
 		for(int i=num1 ;i<=num2 ;i++)
 		{
-			int value =i;
+			 int count=0;
 			
-			boolean check=true;
-			
-			for(int j=2 ; j<value;j++)
+			for(int j=1 ; j<=i;j++)
 			{
-				if(value%j==0)
+				if(i%j==0)
 				{
-					check=false;
+					count++;
 				}
 			}
 			
-			if(check==true)
+			if(count==2)
 			{
-				sum=sum+value;
+				sum=sum+i;
 			}
 			
 		}

@@ -5,7 +5,7 @@ public class OccuranceString {
 	public static void main(String[] args) {
 		String in="aaaaabaccaaa";
 		
-		char target='a';
+		char target='b';
 		
 		int count =0;
 		

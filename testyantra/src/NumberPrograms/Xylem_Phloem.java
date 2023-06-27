@@ -8,34 +8,29 @@ public class Xylem_Phloem {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter The Number...");
 		int num=sc.nextInt();
-		int temp=num;
-		int sumFL=0;
+		int last=num%10;
+		num=num/10;
+		
 		int sumRest=0;
 		
-		while(num>0) {
-			if(num==temp|| num<=9)
-			{
-				sumFL+=num%10;
-			}
-			else
-			{
-				sumRest+=num%10;
-			}
-          num/=10;
+		while(num>9) {
+			sumRest+=num%10;
+			num=num/10;
 		} 
-	
+		
+	   int sumFL=last+num;
 		
 		if(sumFL==sumRest)
 		{
-			System.out.println("Given Number "+temp+" is Xylem Number");
+			System.out.println("Given Number is Xylem Number");
 		}
 		else
 		{
-			System.out.println("Given Number "+temp+" is Phleom Number");
+			System.out.println("Given Number is Phloem Number");
 		}
 		
 		
-
+ 
 	}
 
 }

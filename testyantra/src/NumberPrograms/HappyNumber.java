@@ -20,7 +20,7 @@ public class HappyNumber {
 				sum+=rem*rem;
 				num/=10;
 			}
-			
+			System.out.println(sum);
 			num=sum;
 			
 			if(num==1)

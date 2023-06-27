@@ -28,7 +28,7 @@ public class Perfactsquare {
 		}
 		else
 		{
-			System.out.println("Given  Number "+num+" is Not A perfect Squre Number..");
+			System.out.println("Given  Number "+num+" is Not A perfect Square Number..");
 		}
 	}
 }
