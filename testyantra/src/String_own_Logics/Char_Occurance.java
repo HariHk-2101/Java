@@ -4,12 +4,11 @@ public class Char_Occurance {
 
 	public static void main(String[] args) {
 		
-		String s="aaahhh".toLowerCase();
+		String s="aaahhhi".toLowerCase();
 		
 		String visited="";
 	        
-		System.out.println(s.indexOf('x'));
-		 System.out.println(s.indexOf('i'));
+	
 		 
 		for (int i = 0; i < s.length(); i++) {
 			

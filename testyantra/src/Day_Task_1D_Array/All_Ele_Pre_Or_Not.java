@@ -5,7 +5,7 @@ public class All_Ele_Pre_Or_Not {
 	
 	public static void main(String[] args) {
 		int a[]= {1,2,3,8,5};
-		int b[]= {1,2,3,8,5};
+		int b[]= {1,2,3,5,8};
 		
 		if(a.length!=b.length)
 		{

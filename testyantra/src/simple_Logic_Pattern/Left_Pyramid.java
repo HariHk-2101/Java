@@ -15,7 +15,7 @@ public class Left_Pyramid {
 				}
 				else
 				{
-					System.out.print("i ");
+					System.out.print("  ");
 				}
 			}
 			System.out.println();
