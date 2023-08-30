@@ -4,7 +4,7 @@ public class Print_Duplicate_char {
 
 	public static void main(String[] args) {
 
-		String s = "java";
+		String s = "javav";
 
 		String vis = "";
 		for (int i = 0; i < s.length(); i++) {
@@ -23,11 +23,11 @@ public class Print_Duplicate_char {
 				}
 
 				if (count >= 1) {
-					vis += ch;
+					vis += ch+" ";
 
 				}
 			}
-
+            
 		}
 		System.out.println(vis);
 	}

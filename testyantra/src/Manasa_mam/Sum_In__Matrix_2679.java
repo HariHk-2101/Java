@@ -41,9 +41,9 @@ public class Sum_In__Matrix_2679 {
 
 		// Input: nums = [[7,2,1],[6,4,2],[6,5,3],[3,2,1]]
 
-		// int nums[][]= {{7,2,1},{6,4,2},{6,5,3},{3,2,1}};
+		 int nums[][]= {{7,2,1},{6,4,2},{6,5,3},{3,2,1}};
 
-		int nums[][] = { { 1 } };
+		//int nums[][] = { { 1 } };
 		System.out.println(matrixSum(nums));
 
 	}

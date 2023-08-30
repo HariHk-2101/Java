@@ -1,7 +1,5 @@
 package simple_Logic_Pattern;
 
-
-
 public class Butterfly_prog {
 
 	public static void main(String[] args) {
@@ -11,7 +9,7 @@ public class Butterfly_prog {
 		{
 			for(int j=1;j<=n*2-1;j++)
 			{
-				if((i>=j&&i<n)||(i+j<=2*n&&i>=n)||i+j>=n*2&&i<=n||i<=j&&i>=n) {
+				if(((j<=i||i+j>=n*2)&&i<=n)||((j>=i||i+j<=n*2)&&i>n)) {
 				
 					System.out.print("* ");
 				}

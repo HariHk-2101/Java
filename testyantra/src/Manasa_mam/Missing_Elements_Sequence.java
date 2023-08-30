@@ -1,22 +1,26 @@
 package Manasa_mam;
 
+import java.util.Arrays;
+
 public class Missing_Elements_Sequence {
 
 	public static void main(String[] args) {
 		
-		int a[]= {1,3,5,7,9};
+		int a[]= {1,3,5,7};
 		
-		int count=a[0];
+		Arrays.sort(a);
+		
+		int missing=a[0];
 		for (int i = 0; i < a.length; i++) {
 			
-			if(count==a[i])
+			if(missing==a[i])
 			{
-				count++;
+				missing++;
 			}
 			else
 			{
-				System.out.println(count);
-				count=a[i]+1;
+				System.out.println(missing);
+				missing=a[i]+1;
 			}
 		}
 	}

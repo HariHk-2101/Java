@@ -4,7 +4,7 @@ public class Char_Occurance {
 
 	public static void main(String[] args) {
 		
-		String s="aaahhhi".toLowerCase();
+		String s="apple".toLowerCase();
 		
 		String visited="";
 	        
@@ -13,6 +13,7 @@ public class Char_Occurance {
 		for (int i = 0; i < s.length(); i++) {
 			
 			char ch=s.charAt(i);
+			
 			if(visited.indexOf(ch)==-1)
 			{
 				int count=1;
@@ -27,7 +28,6 @@ public class Char_Occurance {
 				visited+=s.charAt(i);
 			}
 		}
-		System.out.println(visited);
-
+		
 	}
 }

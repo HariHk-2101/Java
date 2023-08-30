@@ -1,14 +1,14 @@
 package String_own_Logics;
 
-import java.util.Arrays;
-
 public class Frequency_Of_Words {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 
-		String s = "Hello hello hello Hello Hello java java java java  hii hii jii joih".toLowerCase();
+		String s = "hii hello hii bye".toLowerCase();
 
 		String s1[] = s.split(" ");
+		
+		System.out.println(s1.length);
 
 		for (int i = 0; i < s1.length; i++) 
 		{
@@ -16,6 +16,7 @@ public class Frequency_Of_Words {
 			for (int j = i+1; j < s1.length; j++) {
 
 				if (s1[i].equals(s1[j])) {
+					
 					count++;
 					s1[j] = "";
 				}

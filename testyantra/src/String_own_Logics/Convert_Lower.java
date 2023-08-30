@@ -3,7 +3,7 @@ package String_own_Logics;
 public class Convert_Lower {
 
 	public static void main(String[] args) {
-		String s = "HARI";
+		String s = "Java";
 
 		for (int i = 0; i < s.length(); i++) {
 

@@ -1,10 +1,10 @@
 package String_own_Logics;
 
-public class Remove_Char_In_String {
+public class Print_Single_Char_In_String {
 
 	public static void main(String[] args) {
 
-		String s = "jjjavaaaaaaaavvvb";
+		String s = "java";
 
 		String vis = "";
 		for (int i = 0; i < s.length(); i++) {
@@ -24,7 +24,7 @@ public class Remove_Char_In_String {
 				}
 
 				if (count == 0) {
-					System.out.println(ch);
+					System.out.print(ch+" ");
 
 				}
 				vis += ch;

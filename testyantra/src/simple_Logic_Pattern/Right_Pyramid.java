@@ -9,7 +9,7 @@ public class Right_Pyramid {
 		{
 			for(int j=1;j<=n;j++)
 			{
-				if((i>=j&&i<n)||(i+j<=2*n&&i>=n)) {
+				if((i>=j&&i<=n)||(i+j<=2*n&&i>n)) {
 				
 					System.out.print("* ");
 				}

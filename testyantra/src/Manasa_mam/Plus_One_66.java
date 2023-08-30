@@ -4,7 +4,7 @@ public class Plus_One_66 {
 
 	public static void main(String[] args) {
 
-		int digits[] = {3,2,99};
+		int digits[] = {3,2};
 
 		Plus_One_66 p = new Plus_One_66();
 

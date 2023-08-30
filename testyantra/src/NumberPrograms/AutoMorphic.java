@@ -10,7 +10,7 @@ public class AutoMorphic {
 		System.out.println("Enter the Number.....");
 
 		int num = sc.nextInt();
-
+   
 		int temp = num;
 
 		int sq = num * num;
@@ -18,11 +18,10 @@ public class AutoMorphic {
 		while (num > 0) {
 
 			if (num % 10 != sq % 10)
-
 			{
 				break;
 			}
-			num = num / 10;
+			num = num / 10; 
 			sq = sq / 10;
 		}
 		if (num == 0) {

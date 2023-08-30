@@ -4,17 +4,19 @@ import java.util.Arrays;
 import java.util.Iterator;
 
 public class Insert_Ele {
+	
 	// 20. Insert an element to a particular index of an array
 
 	public static void main(String[] args) {
 
+		i 
 		int a[] = { 1, 2, 4, 5 };
 
 		int b[] = new int[a.length + 1];
 
-		int index = 2;
+		int index = 3;
 		int ele = 3;
-
+   
 		if (index >= a.length) {
 			System.out.println("Index Postion Invalid..");
 		} else {

@@ -2,7 +2,7 @@ package String_own_Logics;
 
 public class Given_String_Occurance {
 	public static void main(String[] args) {
-		String s="hi hi h9 hii".toLowerCase();
+		String s="hi hi h9 hii h9".toLowerCase();
 		
 		String [] s1=s.split(" ");
 		
@@ -18,7 +18,7 @@ public class Given_String_Occurance {
 			}
 		}
 		if(count>0) {
-		System.out.println(key+" present in "+count+ " time");
+		System.out.println(key+" present in "+count+ " times");
 		}
 		else
 		{

@@ -4,7 +4,7 @@ public class Missing_Number_268 {
 
 	public static void main(String[] args) {
 		
-		int num[]= {0,1};
+		int num[]= {0,1,2,5};
 		
 		int sum=0;
 		for(int i=0;i<num.length;i++)

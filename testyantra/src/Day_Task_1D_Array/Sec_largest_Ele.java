@@ -5,7 +5,7 @@ public class Sec_largest_Ele {
 //22.  Find second largest element in a n array
 
 	public static void main(String[] args) {
-		int a[] = { 10, 5, 6, 3, 8 };
+		int a[] = { 10, 5, 6, 3, 8,10,10 };
 
 		int max = a[0];
 		int secmax = 0;
@@ -21,6 +21,9 @@ public class Sec_largest_Ele {
 		}
 
 		System.out.println(secmax);
+		
+		
+		
 	}
 
 }

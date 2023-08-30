@@ -6,9 +6,10 @@ public class Highest_Sum_In_Array {
 
 	public static void main(String[] args) {
 
-		int a[] = { 50, 20, 40, 30, 10 };
+		int a[] = { 1,4,3,4,1,2};
 
 		int sum = 0;
+		
 		for (int i = 0; i < a.length; i++) {
 
 			for (int j = i + 1; j < a.length; j++) {
@@ -21,5 +22,23 @@ public class Highest_Sum_In_Array {
 
 		}
 		System.out.println("Highest Sum In Array " + sum);
+
+		
+
+		
+
+		for (int i = 0; i < a.length; i++) {
+
+			for (int j = i + 1; j < a.length; j++) {
+
+				if (sum > a[i] + a[j]) {
+					sum = a[i] + a[j];
+
+				}
+
+			}
+
+		}
+		System.out.println("Lowest Sum In An Array "+sum);
 	}
 }
